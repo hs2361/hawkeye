@@ -3,6 +3,8 @@ import numpy as np
 from keras.models import load_model
 import tensorflow as tf
 from multiprocessing import Process
+from firebase_admin import messaging, credentials, storage
+import firebase_admin
 from datetime import datetime
 import threading
 import time
@@ -25,12 +27,18 @@ flag = False
 start_splicing = False
 model = load_model('model_hawkeye')
 
+cred = credentials.Certificate(
+    "hawkeye-abd94-firebase-adminsdk-vz5ev-e084e72618.json")
+firebase_admin.initialize_app(cred, {
+    'storageBucket': 'hawkeye-abd94.appspot.com'
+})
+bucket = storage.bucket()
 
 def prediction(current_frames, original_footage):
     current_frames = current_frames.reshape(1, 64, 224, 224, 5)
     prediction = model.predict(current_frames)
 
-    if prediction[0][0] > 0.75:  # Assuming model predicts as [Nonviolence,Violence]
+    if prediction[0][0] > 0.5:  # Assuming model predicts as [Nonviolence,Violence]
         global hit
         hit = True
         print("Hit")
@@ -43,7 +51,23 @@ def prediction(current_frames, original_footage):
         for frame in original_footage:
             out.write(frame)
         out.release()
-
+        blob = bucket.blob(f"{topic}_{now}.mp4")
+        blob.upload_from_filename(filename=video_filename)
+        data = {
+            "click_action": "FLUTTER_NOTIFICATION_CLICK",
+            "camID": "007",
+            "latitude": "23.4",
+            "longitude": "89.1",
+            "file": f"{topic}_{now}"
+        }
+        message = messaging.Message(
+            notification=messaging.Notification(
+                body="Violence Detected", title="Test Message"),
+            topic=topic,
+            data=data
+        )
+        response = messaging.send(message)
+        print('Successfully sent message:', response)
     print(prediction)
 
 
