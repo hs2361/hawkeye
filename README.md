@@ -1,4 +1,4 @@
-# HawkEye - An automated Violence Detection System for CCTVs
+# HawkEye - An Automated Violence Detection System for CCTVs
 
 With the increase of surveillance cameras in modern cities, there are insufficient human resource for monitoring all the screens at one time. In our project, we use machine learning techniques to detect violent behavior so a quick alarm can be given in time. This project is mainly intended to serve as an alarm system for the police/security forces to respond quickly to occasions of violence which can be curbed before they escalte out of control. 
 
@@ -12,4 +12,4 @@ This directory contains an implementation of the Python Script which can be easi
 
 #### 2) The implementation of the Flutter App (in the `Flutter App` directory) :-
 
-This directory contains the implementation of an Flutter App which will be installed in the phones 
+This directory contains the implementation of an Flutter App which will can be installed on the mobile devices of appropriate authorities and will serve as the receiving endpoint of any signal given off from the server. Using this app, users will be able to SignUp using a unique organization ID provided only to the people specified by organization to avoid unneccessary spread of the footage. Whenever the script in the CCTV Systems detects violent behavior a small video clip is sent to this app along with location and coordinates of the camera from which the footage was taken. Authorities can then stream this video and prepare a response force of an appropiate size. The app also features the ability to show the shortest route to point of crime from the current location of the user using Google Maps.
