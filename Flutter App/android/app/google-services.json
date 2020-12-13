@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "28563917663",
+    "project_id": "hawkeye-abd94",
+    "storage_bucket": "hawkeye-abd94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28563917663:android:81d36702d095eea795c4ea",
+        "android_client_info": {
+          "package_name": "com.longtimenoc.HawkEye"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "28563917663-iiaqi11hfqbp1jo5hophhajgo112ss8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-Safur3GTSTehTYak8Bh8DhrrViKgDYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "28563917663-iiaqi11hfqbp1jo5hophhajgo112ss8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
