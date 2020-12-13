@@ -1,0 +1,27 @@
+# This is a generated file; do not edit or check into version control.
+cloud_firestore=/home/harsh/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.14.4/
+cloud_firestore_web=/home/harsh/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_web-0.2.1+2/
+firebase_auth=/home/harsh/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.18.4+1/
+firebase_auth_web=/home/harsh/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-0.3.2+3/
+firebase_core=/home/harsh/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.5.3/
+firebase_core_web=/home/harsh/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.2.1+1/
+firebase_dynamic_links=/home/harsh/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.5.3/
+firebase_messaging=/home/harsh/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-7.0.3/
+firebase_storage=/home/harsh/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage-5.2.0/
+firebase_storage_web=/home/harsh/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage_web-0.1.1+1/
+geocoder=/home/harsh/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/geocoder-0.2.1/
+geolocator=/home/harsh/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator-6.1.13/
+path_provider_linux=/home/harsh/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-0.0.1+2/
+path_provider_windows=/home/harsh/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-0.0.4+3/
+shared_preferences=/home/harsh/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.5.12+4/
+shared_preferences_linux=/home/harsh/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_linux-0.0.2+4/
+shared_preferences_macos=/home/harsh/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_macos-0.0.1+11/
+shared_preferences_web=/home/harsh/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_web-0.1.2+7/
+shared_preferences_windows=/home/harsh/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_windows-0.0.1+3/
+url_launcher=/home/harsh/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.7.10/
+url_launcher_linux=/home/harsh/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-0.0.1+4/
+url_launcher_macos=/home/harsh/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+9/
+url_launcher_web=/home/harsh/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.5+1/
+url_launcher_windows=/home/harsh/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_windows-0.0.1+3/
+video_player=/home/harsh/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/video_player-1.0.1/
+video_player_web=/home/harsh/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/video_player_web-0.1.4+1/
