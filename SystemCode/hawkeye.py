@@ -41,7 +41,7 @@ def prediction(current_frames, original_footage):
     if prediction[0][0] > 0.75:  # Assuming model predicts as [Nonviolence,Violence]
         global hit
         hit = True
-        print("Hit")
+        print("Violence Detected")
 
         now = datetime.now().strftime("%Y%m%d%H%M%s")
         fourcc = cv2.VideoWriter_fourcc('M', 'P', '4', 'V')
